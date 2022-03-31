@@ -399,7 +399,7 @@ ${m3uUrl}
     ) {
       tv.push({
         name: "channel",
-        attrs: { id: channel.slug },
+        attrs: { id: channel.number },
         children: [
           { name: "display-name", text: channel.name },
           { name: "display-name", text: channel.number },
