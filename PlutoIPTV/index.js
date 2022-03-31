@@ -468,7 +468,7 @@ ${m3uUrl}
             attrs: {
               start: moment(programme.start).format("YYYYMMDDHHmmss ZZ"),
               stop: moment(programme.stop).format("YYYYMMDDHHmmss ZZ"),
-              channel: channel.slug,
+              channel: channel.number,
             },
             children: [
               { name: "title", attrs: { lang: "en" }, text: programme.title },
