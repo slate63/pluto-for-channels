@@ -1,6 +1,8 @@
-# Pluto for Channels
+# Pluto for Xteve ~~Channels~~
 
-This simple Docker image will generate an M3U playlist and EPG optimized for use in [Channels](https://getchannels.com) and expose them over HTTP.
+I have modifed this repository to support importing Pluto TV streams straight into Xteve.
+
+~~This simple Docker image will generate an M3U playlist and EPG optimized for use in [Channels](https://getchannels.com) and expose them over HTTP.
 
 [Channels](https://getchannels.com) supports [custom channels](https://getchannels.com/docs/channels-dvr-server/how-to/custom-channels/) by utilizing streaming sources via M3U playlists.
 
@@ -15,7 +17,7 @@ Running the container is easy. Fire up the container as usual. You can set which
 You can retrieve the playlist and EPG via the status page.
 
     http://127.0.0.1:8080
-    
+
 ### Optionally have multiple feeds generated
 
 By using the `VERSIONS` env var when starting the docker container, you can tell it to create multiple feeds that can be used elsewhere.
@@ -39,4 +41,4 @@ Next, set the provider for your new source and choose custom URL.
 
 Finally, enter your EPG xml url and set it to refresh every 6 hours.
 
-<img src=".github/3.png" width="500px"/>
+<img src=".github/3.png" width="500px"/>~~
