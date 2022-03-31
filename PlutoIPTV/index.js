@@ -370,7 +370,7 @@ function processChannels(version, list) {
 
       m3u8 =
         m3u8 +
-        `#EXTINF:0 channel-id="${slug}" channel-number="${channel.number}" tvg-logo="${logo}" tvc-guide-art="${art}" tvc-guide-title="${name}" tvc-guide-description="${guideDescription}" group-title="${group}", ${name}
+        `#EXTINF:0 channel-id="${channel.number}" channel-number="${channel.number}" tvg-logo="${logo}" tvc-guide-art="${art}" tvc-guide-title="${name}" tvc-guide-description="${guideDescription}" group-title="${group}", ${name}
 ${m3uUrl}
 
 `;
